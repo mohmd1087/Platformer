@@ -35,7 +35,7 @@ public class hit : MonoBehaviour
                 }
                 else if (hit.transform.name == "questionmark(Clone)")
                 {
-                    _coinCount = _coinCount + 1;
+                    _coinCount++;
                     _score += 100;
                     Coins.text = $"Coins\n{_coinCount}";
                     Score.text = $"Score\n{_score}";
