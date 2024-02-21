@@ -1,5 +1,6 @@
 
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Serialization;
 
@@ -22,7 +23,7 @@ public class hit : MonoBehaviour
             Debug.Log("Mouse clicked");
             RaycastHit hit;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            if (Physics.Raycast(ray, out hit, 100.0f))
+            if (Physics.Raycast(ray, out hit, 50.0f))
             {
                 if (hit.transform.name == "brickbox(Clone)")
                 {
@@ -37,6 +38,7 @@ public class hit : MonoBehaviour
                 {
                     _coinCount++;
                     _score += 100;
+                    Debug.Log($"The score is{_score}");
                     Coins.text = $"Coins\n{_coinCount}";
                     Score.text = $"Score\n{_score}";
                 }
