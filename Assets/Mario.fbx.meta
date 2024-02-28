@@ -3,7 +3,47 @@ guid: fd9dbf0040d28654fa2bac6ef2b6367f
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: submesh_0
+    second: {fileID: 2100000, guid: 6549d8745bcbe104a9cd9d69fe4332dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: submesh_1
+    second: {fileID: 2100000, guid: b690eff5110a7ef45bcd252529bac25d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: submesh_2
+    second: {fileID: 2100000, guid: 0f6b17f93ef9ca844902a721709d647b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: submesh_3
+    second: {fileID: 2100000, guid: c402413ca80f76141ad9f98f29fd05c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: submesh_4
+    second: {fileID: 2100000, guid: d3da5a83b7914024a8d8bea941afd902, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: submesh_5
+    second: {fileID: 2100000, guid: 06b69e39fb6ff3748a1987b0fbcf6f85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: submesh_6
+    second: {fileID: 2100000, guid: 69085fd25ca47c44695ce64df09a2519, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: submesh_7
+    second: {fileID: 2100000, guid: 01ca2cbec60efff43aa2fe61d086c1f5, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

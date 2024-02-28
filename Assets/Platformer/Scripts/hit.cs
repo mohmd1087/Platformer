@@ -120,7 +120,7 @@ public class Hit : MonoBehaviour
     private void UpdateUI()
     {
         coinsText.text = $"Coins\n{_coinCount/32}";
-        scoreText.text = $"Score\n{_score/320}";
+        scoreText.text = $"Score\n{_score}";
     }
 }
 

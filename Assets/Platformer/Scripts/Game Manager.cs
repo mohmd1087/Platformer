@@ -22,11 +22,11 @@ public class GameManager : MonoBehaviour
         
     }
 
-   public void hitQuestion()
-    {
-        _coinCount++;
-        _score += 100;
-        Coins.text = $"Coins\n{_coinCount}";
-        Score.text = $"Score\n{_score}";
-    }
+   // public void hitQuestion()
+   //  {
+   //      _coinCount++;
+   //      _score += 100;
+   //      Coins.text = $"Coins\n{_coinCount}";
+   //      Score.text = $"Score\n{_score}";
+   //  }
 }
